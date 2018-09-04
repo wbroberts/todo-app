@@ -1,0 +1,51 @@
+.todo-item {
+  border-bottom: 1px solid lightgrey;
+  list-style: none;
+  margin: 0 auto;
+  max-width: 450px;
+  overflow: hidden;
+}
+
+.row {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.side-btn {
+  flex-basis: 10%;
+  text-align: center;
+}
+
+.main-text {
+  flex-basis: 80%;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.fade-enter {
+  opacity: 0;
+  height: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  height: 2.5rem;
+  transition: height 300ms ease-out, opacity 300ms ease-in;
+}
+
+.fade-enter-done {
+  min-height: 2.5rem;
+}
+
+.fade-exit {
+  opacity: 1;
+  height: 2.5rem;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  height: 0;
+  transition: height 300ms ease-out, opacity 300ms ease-in;
+}

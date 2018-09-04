@@ -1,0 +1,16 @@
+.App {
+  background: #fff;
+  min-height: 100vh;
+  margin: 0;
+  max-width: 550px;
+  padding: 30px 10px;
+  text-align: center;
+}
+
+@media (min-width: 550px) {
+  .App {
+    box-shadow: 0 0 5px #666;
+    min-height: auto;
+    margin: 50px auto;
+  }
+}

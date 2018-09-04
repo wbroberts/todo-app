@@ -1,0 +1,45 @@
+.btn {
+  border: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn i {
+  font-size: 1.5rem;
+}
+
+.btn:disabled i {
+  color: rgba(255, 0, 0, 0.384);
+}
+
+.green {
+  color: green;
+}
+
+.green:hover {
+  color: lightgreen;
+}
+
+.lightgreen {
+  color: lightgreen;
+}
+
+.lightgreen:hover {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.red:hover {
+  color: darkred;
+}
+
+.green,
+.lightgreen,
+.red {
+  transition: color 200ms ease-out;
+}
