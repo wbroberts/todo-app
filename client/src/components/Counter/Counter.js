@@ -7,7 +7,7 @@ const counter = props => {
   const count = incomplete.length;
 
   let message;
-  if (count > 1) message = `${count} things to do.`;
+  if (count > 1) message = `${count} things to do`;
   else if (count === 1) message = `${count} thing to do`;
   else message = 'nothing to do...';
 

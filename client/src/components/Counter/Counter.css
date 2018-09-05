@@ -1,4 +1,6 @@
 .counter {
   color: #555;
+  font-size: 1.1rem;
+  font-weight: 300;
   padding-top: 10px;
 }
