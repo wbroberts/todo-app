@@ -1,0 +1,25 @@
+.slide-enter {
+  opacity: 0;
+  height: 0;
+}
+
+.slide-enter-active {
+  opacity: 1;
+  height: 2.5rem;
+  transition: height 300ms ease-out, opacity 300ms ease-in;
+}
+
+.slide-enter-done {
+  min-height: 2.5rem;
+}
+
+.slide-exit {
+  opacity: 1;
+  height: 2.5rem;
+}
+
+.slide-exit-active {
+  opacity: 0;
+  height: 0;
+  transition: height 300ms ease-out, opacity 300ms ease-in;
+}

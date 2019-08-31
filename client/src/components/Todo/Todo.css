@@ -23,29 +23,3 @@
   text-align: left;
   padding: 10px 0;
 }
-
-.fade-enter {
-  opacity: 0;
-  height: 0;
-}
-
-.fade-enter-active {
-  opacity: 1;
-  height: 2.5rem;
-  transition: height 300ms ease-out, opacity 300ms ease-in;
-}
-
-.fade-enter-done {
-  min-height: 2.5rem;
-}
-
-.fade-exit {
-  opacity: 1;
-  height: 2.5rem;
-}
-
-.fade-exit-active {
-  opacity: 0;
-  height: 0;
-  transition: height 300ms ease-out, opacity 300ms ease-in;
-}

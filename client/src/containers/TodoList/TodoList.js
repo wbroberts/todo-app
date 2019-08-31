@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import axios from 'axios';
 
+import './TodoList.css';
 import Todo from '../../components/Todo/Todo';
 import AddTodo from '../../components/AddTodo/AddTodo';
 import Counter from '../../components/Counter/Counter';
@@ -90,7 +91,7 @@ class TodoList extends Component {
           mountOnEnter
           unmountOnExit
           timeout={300}
-          classNames="fade"
+          classNames="slide"
           key={todo._id}
         >
           <Todo

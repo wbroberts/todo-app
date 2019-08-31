@@ -12,6 +12,7 @@
 
 .btn:disabled i {
   color: rgba(255, 0, 0, 0.384);
+  cursor: default;
 }
 
 .green {
